@@ -38,6 +38,7 @@ const Length = () => {
                     case 'in' :
                         convertedValue = parseFloat(length) * 39.37008; //Convert m to inches
                         setConvertedLength(convertedValue.toFixed(2) + ' inches');
+                        break;
                     case 'ft' :
                         convertedValue = parseFloat(length) * 3.28084; //Convert m to feet
                         setConvertedLength(convertedValue.toFixed(2) + ' ft');
