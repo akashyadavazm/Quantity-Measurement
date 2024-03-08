@@ -41,6 +41,7 @@ const Weight = () => {
                     case 'ton':
                         convertedValue = parseFloat(weight) * 1000000;//Convert gram to miligram
                         setConvertedWeight(convertedValue.toFixed(2) + ' ton');
+                        break;
                     default:
                         setConvertedWeight('Invalid target unit');
                 }
